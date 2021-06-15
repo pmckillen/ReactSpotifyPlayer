@@ -69,7 +69,7 @@ a {
 }
 
 .now-playing__album {
-  opacity: 75%;
+  opacity: 0.75;
 }
 
 .now-playing__img {
