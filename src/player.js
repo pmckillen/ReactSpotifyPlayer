@@ -64,7 +64,6 @@ export default function Player({ code }) {
           console.log('Playback paused');
         }, function (err) {
           //if the user making the request is non-premium, a 403 FORBIDDEN response code will be returned
-          alert('You need a premium account for that', err);
         });
     } else {
       spotifyApi.play()
@@ -72,7 +71,6 @@ export default function Player({ code }) {
           console.log('Playback started');
         }, function (err) {
           //if the user making the request is non-premium, a 403 FORBIDDEN response code will be returned
-          alert('You need a premium account for that', err);
         });
     }
     // setPlaying(!playing)
