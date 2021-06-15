@@ -6,8 +6,8 @@ export default function useAuth(code) {
   const [refreshToken, setRefreshToken] = useState()
   const [expiresIn, setExpiresIn] = useState()
 
-  let baseUrl = "https://spotify-player-api.herokuapp.com/"
-  
+  const baseUrl = "https://spotify-player-api.herokuapp.com/login"
+
   useEffect(() => {
     axios
       .post(baseUrl, {
