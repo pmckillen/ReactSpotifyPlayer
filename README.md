@@ -4,7 +4,7 @@ View at: https://ankityande.github.io/ReactSpotifyPlayer/
 
 Backend server code: https://github.com/AnkitYande/Spotify-API
 
-##Info
+## Info
 
 This project was inspired by: https://github.com/developedbyed/3d-card-effect and https://github.com/WebDevSimplified/spotify-clone
 
