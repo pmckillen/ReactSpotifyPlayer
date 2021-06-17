@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactSpotifyPlayer/static/css/main.bea9f162.chunk.css",
+    "main.css": "/ReactSpotifyPlayer/static/css/main.8b599e51.chunk.css",
     "main.js": "/ReactSpotifyPlayer/static/js/main.7d86d1c0.chunk.js",
     "main.js.map": "/ReactSpotifyPlayer/static/js/main.7d86d1c0.chunk.js.map",
     "runtime-main.js": "/ReactSpotifyPlayer/static/js/runtime-main.0aab96c0.js",
@@ -8,13 +8,13 @@
     "static/js/2.dfa1f01b.chunk.js": "/ReactSpotifyPlayer/static/js/2.dfa1f01b.chunk.js",
     "static/js/2.dfa1f01b.chunk.js.map": "/ReactSpotifyPlayer/static/js/2.dfa1f01b.chunk.js.map",
     "index.html": "/ReactSpotifyPlayer/index.html",
-    "static/css/main.bea9f162.chunk.css.map": "/ReactSpotifyPlayer/static/css/main.bea9f162.chunk.css.map",
+    "static/css/main.8b599e51.chunk.css.map": "/ReactSpotifyPlayer/static/css/main.8b599e51.chunk.css.map",
     "static/js/2.dfa1f01b.chunk.js.LICENSE.txt": "/ReactSpotifyPlayer/static/js/2.dfa1f01b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0aab96c0.js",
     "static/js/2.dfa1f01b.chunk.js",
-    "static/css/main.bea9f162.chunk.css",
+    "static/css/main.8b599e51.chunk.css",
     "static/js/main.7d86d1c0.chunk.js"
   ]
 }
