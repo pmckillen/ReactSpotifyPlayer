@@ -49,7 +49,7 @@ export default function Player({ code }) {
             if(data.body && data.body.progress_ms) setProgress(data.body.progress_ms)
             setTrackLen(data.body.item.duration_ms)
           }else{
-            alert('Make sure you are playing something in Spotify')
+            alert('Make sure you are playing something in Spotify on your device and that you are not offline')
           }
         }, function (err) {
           console.log('Something went wrong getting playback info', err);
