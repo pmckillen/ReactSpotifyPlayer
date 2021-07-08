@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-View at: https://ankityande.github.io/ReactSpotifyPlayer/
+### View at: https://ankityande.github.io/ReactSpotifyPlayer/
 
 Backend server code: https://github.com/AnkitYande/Spotify-API
 
