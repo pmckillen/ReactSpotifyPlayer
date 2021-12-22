@@ -121,6 +121,8 @@ a {
 }
 
 .container {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   width: 80%;
   padding: 5%;
   display: flex;
@@ -131,6 +133,7 @@ a {
 
 .card {
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   /* perspective: 2000px;
     -webkit-perspective: 2000px; */
   min-height: 60vh;

@@ -104,13 +104,16 @@ export default function Player({ code }) {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 20;
     let yAxis = (window.innerHeight / 2 - e.pageY) / 20;
     card.current.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+    card.current.style.webkitTransform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
   }
   const mouseEnter = () => {
     card.current.style.transition = "none";
   }
   const mouseLeave = () => {
     card.current.style.transition = "all 0.5s ease"
+    card.current.style.webkitTransform = "all 0.5s ease"
     card.current.style.transform = "rotateY(0deg) rotateX(0deg)";
+    card.current.style.webkitTransform = "rotateY(0deg) rotateX(0deg)";
   };
 
   const progressBar = useRef();
